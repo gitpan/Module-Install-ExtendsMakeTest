@@ -1,21 +1,7 @@
 Changes
-inc/Module/Install.pm
-inc/Module/Install/AuthorTests.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Repository.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
-inc/Test/More.pm
-inc/Test/Requires.pm
 lib/Module/Install/ExtendsMakeTest.pm
 Makefile.PL
 MANIFEST			This list of files
-META.yml
 README
 t/00_compile.t
 t/extends_make_test/after_run_codes.t
@@ -34,3 +20,4 @@ xt/02_pod.t
 xt/03_pod-coverage.t
 xt/04_perlcritic.t
 xt/perlcriticrc
+META.yml                                 Module meta-data (added by MakeMaker)

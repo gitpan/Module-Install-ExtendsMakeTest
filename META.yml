@@ -1,27 +1,25 @@
----
-abstract: 'Assembles test targets for `make` with code snippets'
-author:
-  - 'Yuji Shimada <xaicron {at} cpan.org>'
-build_requires:
-  ExtUtils::MakeMaker: 6.42
+--- #YAML:1.0
+name:               Module-Install-ExtendsMakeTest
+version:            0.01_03
+abstract:           Assembles test targets for `make` with code snippets
+author:  []
+license:            perl
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.00'
-license: perl
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Module-Install-ExtendsMakeTest
-no_index:
-  directory:
-    - inc
-    - t
-    - xt
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-  Module::Install: 1
-  perl: 5.6.2
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/xaicron/p5-Module-Install-ExtendsMakeTest.git
-version: 0.01_02
+    ExtUtils::Install:    1.43
+    ExtUtils::MakeMaker:  6.31
+    Module::Install:      1
+    Test::More:           0.96
+    Test::Requires:       0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
