@@ -24,4 +24,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/xaicron/p5-Module-Install-ExtendsMakeTest.git
-version: 0.01_01
+version: 0.01_02
