@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Module-Install-ExtendsMakeTest
-version:            0.03
+version:            0.04
 abstract:           Assembles test targets for `make` with code snippets
 author:  []
 license:            perl
